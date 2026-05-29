@@ -1,0 +1,17 @@
+.homeWorks{
+    padding-inline: 5vw;
+    padding-block: 3vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    margin-bottom: 1vh;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,32 @@
+.project-case{
+    aspect-ratio: 4/2.5;
+    width: 40vw;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 40px;
+    font-size: 80%;
+    border-radius: 20px;
+}
+
+.project-case .tecs{
+    display: flex;
+    gap: 10px;
+}
+
+.tecs>*{
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 0.75rem;
+}
+
+.thumbnail{
+    background: blue;
+}
+
+@media (max-width:500px) {
+    .tecs>*{
+        display: none;
+    }
+}

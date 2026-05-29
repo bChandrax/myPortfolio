@@ -1,0 +1,13 @@
+.mini-terminal{
+    width: 70vw;
+    height: 25vw;
+    min-height: 200px;
+    border: 2px solid black;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .mini-terminal{
+        width: 100%;
+    }
+}

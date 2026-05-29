@@ -1,0 +1,46 @@
+.tech-stack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.tech-stack span{
+    font-size: 1rem;
+}
+
+.tech-stack h1{
+    font-size: 2.5rem;
+}
+
+.categories{
+    width: 70vw;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.category{
+    margin-top: 5px;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    width: 15vw;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25%;
+    padding: 2vw;
+}
+
+p{
+    flex-wrap: wrap
+}
+
+.Tec-icon{
+    font-size:23px ;
+}
+

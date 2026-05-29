@@ -1,0 +1,95 @@
+.connect{
+    display: flex;
+    padding-inline: 5vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.connect>*{
+    width: 40vw;
+}
+
+.connecthalf{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.connecthalf h2{
+    font-size: 2.5rem;
+}
+
+.wrapper-icon{
+    height: 60px !important;
+    width: 60px !important;
+    padding: 20px;
+    stroke-width: 1px;
+}
+
+.email-wrapper, 
+.location-wrapper{
+    display: flex;
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-wrapper span{
+    font-size: .75rem;
+}
+
+.info-wrapper p{
+    font-size: 1rem;
+}
+
+.form, .form-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form{gap:25px;}
+
+.form-field input{
+    height: 5ch;
+    padding: 1ch;
+}
+
+.form-field textarea{
+    padding: 1ch;
+    height: 20ch;
+}
+
+.name-and-email-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.name-and-email-wrapper>*{
+    width: 19vw;
+}
+
+.form button{
+    width: 100%;
+    height: 6vh;
+}
+
+@media (max-width:600px) {
+    .connect{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .connect>*{
+        width: 90%;
+    }
+
+    .name-and-email-wrapper>*{
+        width: 36vw;
+    }
+}

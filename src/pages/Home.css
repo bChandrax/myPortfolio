@@ -1,0 +1,13 @@
+.terminal-and-nowplaying{
+    display: flex;
+    padding-inline: 5vw;
+    margin-block: 10vh;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (max-width: 700px){
+    .terminal-and-nowplaying{
+        flex-direction: column;
+    }
+}
