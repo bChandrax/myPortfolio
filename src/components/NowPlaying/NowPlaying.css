@@ -2,7 +2,31 @@
     width: 25vw;
     height: 25vw;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.now-playing header{
+
+}
+
+.music-cover-art{
+    aspect-ratio: 1/1;
+    height: 60%;
+    border: 2px black solid;
+}
+
+.music-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-title{font-size: larger;}
+.artist-name{font-size: small;}
 
 @media (max-width:700px) {
     .now-playing{
